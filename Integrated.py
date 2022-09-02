@@ -109,6 +109,7 @@ for i in range(10):
     blobCount = len(keypoints)
     print(blobCount, "found")
     
+    # Get the distance of blobs found
     if box_width:
         p = box_width                    # perceived width, in pixels
         w = BALLOON_WIDTH                # approx. actual width, in meters (pre-computed)
